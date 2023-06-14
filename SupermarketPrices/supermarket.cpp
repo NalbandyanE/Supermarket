@@ -34,23 +34,23 @@ void Supermarket::deleteProduct(const Product& p) {
 }
 
 void Supermarket::updateProductName(Product& p, const std::string& n) {
-    for (Product& product : products) {
-        if (product.getName() == p.getName()) {
-            product.setName(n);
-            return;
-        }
-    }
-    std::cout << "Product not found." << std::endl;
+    	for (Product& product : products) {
+        	if (product.getName() == p.getName()) {
+            		product.setName(n);
+            		return;
+        	}
+    	}
+    	std::cout << "Product not found." << std::endl;
 }
 
 void Supermarket::updateProductPrice(Product& p, double pr) {
-    for (Product& product : products) {
-        if (product.getName() == p.getName()) {
-            product.setPrice(pr);
-            return;
-        }
-    }
-    std::cout << "Product not found." << std::endl;
+    	for (Product& product : products) {
+        	if (product.getName() == p.getName()) {
+            		product.setPrice(pr);
+            		return;
+        	}
+    	}
+    	std::cout << "Product not found." << std::endl;
 }
 
 
