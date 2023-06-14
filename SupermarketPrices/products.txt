@@ -1,0 +1,7 @@
+Displaying products in supermarket:
+Number	Name	Price	Quantity Weight	CalculatedPriceForAllQuantityOrWeight
+1	bread	250dram	13	-		3250dram
+2	egg	50dram	40	-		5146.67dram
+3	sugar	400dram	-	1500		600dram
+4	apple	350dram	-	3000		1050dram
+5	chips	600dram	15	-		9000dram
